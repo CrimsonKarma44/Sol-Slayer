@@ -1,0 +1,32 @@
+{
+   "name": "sol-slayer",
+   "version": "1.0.0",
+   "description": "an agentic solana wallet",
+   "main": "index.js",
+   "scripts": {
+      "build": "tsc",
+      "start": "tsx src/index.ts",
+      "dev": "tsc --watch",
+      "validator": "solana-test-validator",
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/CrimsonKarma44/Sol-Slayer.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "type": "commonjs",
+   "bugs": {
+      "url": "https://github.com/CrimsonKarma44/Sol-Slayer/issues"
+   },
+   "homepage": "https://github.com/CrimsonKarma44/Sol-Slayer#readme",
+   "devDependencies": {
+      "typescript": "^5.9.3"
+   },
+   "dependencies": {
+      "@solana/kit": "^6.1.0",
+      "tsx": "^4.21.0"
+   }
+}
